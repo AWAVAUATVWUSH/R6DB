@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ScoutCondensedBold';
+    src: url(media/scout_condensed/ScoutCondensed-Bold.otf);
+    font-weight: bold;
+}
+
+.activeButton{
+    color:white;
+    font-family: 'ScoutCondensedBold', sans-serif;
+    cursor: default;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    padding: 0px 3px;
+}
+.activeButton:hover{
+    background-image: url("media/fontglow.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 120% 70%;
+}
+.activeButton img{
+    width: 20px;
+    margin-right: 3px;
+}
+
+.inactiveButton{
+    color:rgb(176, 176, 176);
+    font-family: 'ScoutCondensedBold', sans-serif;
+    cursor: default;
+    font-size: 30px;
+    padding: 0px 3px;
+}
+.inactiveButton:hover{
+    background-image: url("media/fontglow.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 120% 70%;
+    color: white;
+    border-bottom: 2px solid rgb(176, 176, 176);
+}
+.inactiveButton img{
+    width: 20px;
+    margin-right: 3px;
+    filter: brightness(70%);
+}
+.inactiveButton:hover img{
+    filter: none;
+}

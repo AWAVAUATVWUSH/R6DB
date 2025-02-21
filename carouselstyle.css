@@ -1,0 +1,27 @@
+.carousel{
+    /*border: 2px solid lightblue;  /* Debug */
+
+    max-width: 1070px;
+    margin: auto;
+  
+    display:flex;
+    gap: 60px;
+  
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;  /* Hides scrollbar in Firefox */
+}
+.carousel::-webkit-scrollbar {
+    display: none;      /* Hides scrollbar in Chrome, Safari, and Opera */
+}
+  
+.carousel-page{
+    /*border: 2px dashed pink;   /* Debug */
+  
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:6px;
+}

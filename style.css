@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'ScoutLight';
+  src: url(media/Scout-Light.otf);
+}
+@font-face {
+  font-family: 'ScoutCondensedRegular';
+  src: url(media/scout_condensed/ScoutCondensed-Regular.otf);
+  font-weight: normal;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("media/background.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+header div{
+  flex: 0 1 400px;
+  margin: 25px 0px 20px 0px;
+}
+header div img{
+  width: 100%;
+}
+
+#nameBarID{
+  font-family: 'ScoutLight', sans-serif;
+  font-size: 25px;
+  color:white;
+  background-color: rgb(130, 130, 130, 0.2);
+  padding: 7px 60px 7px 60px;
+}
+
+#carouselButtonsID{
+  display:flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 20px 0px 20px 0px;
+}
+
+footer{
+  font-size: 0.8em;
+  color: #777;
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 80px;
+  width: 800px;
+  margin: auto;
+  font-family: 'ScoutLight', sans-serif;
+}

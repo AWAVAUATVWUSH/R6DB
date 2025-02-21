@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'ScoutCondensedBold';
+    src: url(media/scout_condensed/ScoutCondensed-Bold.otf);
+    font-weight: bold;
+}
+
+.card-attacker{
+    border: 1px solid lightskyblue;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 170px;
+    height: 250px;
+    overflow: hidden;
+    display: grid;
+}
+.card-attacker:hover{
+    background: linear-gradient(to bottom, #D9D9D9, #6E6E6E);
+    border-color: #979797;
+}
+.card-attacker .operator-portrait{
+    position: relative;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.card-attacker .operator-icon{
+    position: relative;
+    margin-top: 210px;
+    margin-left: 5px;
+    width: 30px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.card-attacker p{
+    grid-area: 1 / 1 / 2 / 2;
+    color: white;
+    font-family: 'ScoutCondensedBold', sans-serif;
+    font-size: 30px;
+    margin-top: 210px;
+    margin-left: 40px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.card-defender{
+    border: 1px solid orange;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 170px;
+    height: 250px;
+    overflow: hidden;
+    display: grid;
+}
+.card-defender:hover{
+    background: linear-gradient(to bottom, #D9D9D9, #6E6E6E);
+    border-color: #979797;
+}
+.card-defender .operator-portrait{
+    position: relative;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.card-defender .operator-icon{
+    position: relative;
+    margin-top: 210px;
+    margin-left: 5px;
+    width: 30px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.card-defender p{
+    grid-area: 1 / 1 / 2 / 2;
+    color: white;
+    font-family: 'ScoutCondensedBold', sans-serif;
+    font-size: 30px;
+    margin-top: 210px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+
+
+
